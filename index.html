@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hotel Template</title>
+        <meta author="Jean Rene MUNYESHYAKA" >
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js"></script>    
+        <link rel="icon" href="images/logo.png" type="image/png">
+
+    </head>
+    <body>
+        <!-- header-->
+        <header class="header" id="header">
+            <div class="head-top">
+                <div class = "site-name">
+                    <span> HOTEL TEMPLATE</span>
+                </div>
+                <div class="site-nav">
+                    <span id = "nav-btn"> MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+            <div class="head-bottom flex">
+                <h2>NICE AND COMFORT PLACE TO STAY</h2>
+                <P>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home way. Kigali coders, we are your friends. </P>
+                <button type="button" class="head-btn"> GET STARTED</button>
+
+            </div>
+        </header>
+
+        <!-- end of header-->
+
+        <!-- site navbar-->
+        <div class="sidenav" id="sidenav">
+            <span class="cancel-btn" id="cancel-btn">
+                <i class="fas fa-times"></i>
+            </span>
+
+            <ul class="navbar">
+                <li><a href="#Home">Home </a></li>
+                <li><a href="#services">Services </a></li>
+                <li><a href="#rooms">Rooms </a></li>
+                <li><a href="#customers">Customers </a></li>
+            </ul>
+            <button class="btn sign-up"> Sign up </button>
+            <button class="btn log-in"> Log in </button>
+        </div>
+
+        <!-- end of site navbar-->
+
+        <!-- fullscreen modal-->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal-->
+
+        <!--body content-->
+            <section class="services sec-width" id="services">
+                <div class="title">
+                    <h2>Services</h2>
+                </div>
+                <div class="services-container">
+                    <!--single service-->
+                    <article class="service">
+                        <div class="service-icon">
+                            <span>
+                                <i class="fas fa-utensils"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Food Service / Food Runner</h2>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home way. Kigali coders, we are your friends.</p>
+                            <button type="button" class="btn">Know More</button>
+                        </div>
+                    </article>
+                    <!--end of single service-->
+                    <!--single service-->
+                    <article class="service">
+                        <div class="service-icon">
+                            <span>
+                                <i class="fas fa-swimming-pool"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Refreshment</h2>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home way. Kigali coders, we are your friends.</p>
+                            <button type="button" class="btn">Know More</button>
+                        </div>
+                    </article>
+                    <!--end of single service-->
+
+                    <!--single service-->
+                    <article class="service">
+                        <div class="service-icon">
+                            <span>
+                                <i class="fas fa-broom"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Housekeeping</h2>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home way. Kigali coders, we are your friends.</p>
+                            <button type="button" class="btn">Know More</button>
+                        </div>
+                    </article>
+                    <!--end of single service-->
+                    <!--single service-->
+                    <article class="service">
+                        <div class="service-icon">
+                            <span>
+                                <i class="fas fa-door-closed"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Room Security</h2>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home way. Kigali coders, we are your friends.</p>
+                            <button type="button" class="btn">Know More</button>
+                        </div>
+                    </article>
+                    <!--end of single service-->
+                </div>
+            </section>
+
+        <div class="book">
+            <form class="book-form">
+                <div class="form-item">
+                    <label for="checkin-date"> Checkin Date:</label>
+                    <input type="date" id="checkin-date">
+                </div>
+                <div class="form-item">
+                    <label for="checkout-date"> Checkout Date:</label>
+                    <input type="date" id="checkout-date">
+                </div>
+                <div class="form-item">
+                    <label for="adult">Adults:</label>
+                    <input type="number" min="1" value="1" id="adult">
+                </div>
+                <div class="form-item">
+                    <label for="Children">Children:</label>
+                    <input type="number" min="1" value="1" id="adult">
+                </div>
+                <div class="form-item">
+                    <label for="rooms">Rooms:</label>
+                    <input type="number" min="1" value="1" id="adult">
+                </div>
+                <div class="form-item">
+                    <input type="submit" class="btn" value="Book Now">
+                </div>
+            </form>
+        </div>
+
+
+
+            <section class="rooms sec-width" id="rooms">
+                <div class="title">
+                    <h2>Rooms</h2>
+                </div>
+                <div class="rooms-container">
+                    <!--single room-->
+                    <article class="room">
+                        <div class="room-image">
+                            <img src="images/img1.jpg" alt="room image" >
+                        </div>
+                        <div class="room-text">
+                            <h3>Luxury Room</h3>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet.
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet. 
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet. 
+                                </li>
+                            </ul>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home way. Kigali coders, we are your friends.</p>
+                            <p class="rate">
+                                <span>$99.00 /</span> Per Night
+                            </p>
+                            <button type="button" class="btn"> Book Now</button>
+                        </div>
+                    </article>
+                    <!--end of single room-->
+                     <!--single room-->
+                     <article class="room">
+                        <div class="room-image">
+                            <img src="images/img2.jpg" alt="room image" >
+                        </div>
+                        <div class="room-text">
+                            <h3>Luxury Room</h3>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet.
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet. 
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet. 
+                                </li>
+                            </ul>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home way. Kigali coders, we are your friends.</p>
+                            <p class="rate">
+                                <span>$99.00 /</span> Per Night
+                            </p>
+                            <button type="button" class="btn"> Book Now</button>
+                        </div>
+                    </article>
+                    <!--end of single room-->
+                     <!--single room-->
+                     <article class="room">
+                        <div class="room-image">
+                            <img src="images/img3.jpg" alt="room image" >
+                        </div>
+                        <div class="room-text">
+                            <h3>Luxury Room</h3>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet.
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet. 
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet. 
+                                </li>
+                            </ul>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home way. Kigali coders, we are your friends.</p>
+                            <p class="rate">
+                                <span>$99.00 /</span> Per Night
+                            </p>
+                            <button type="button" class="btn"> Book Now</button>
+                        </div>
+                    </article>
+                    <!--end of single room-->
+
+                    <!--single room-->
+                    <article class="room">
+                        <div class="room-image">
+                            <img src="images/img4.jpg" alt="room image" >
+                        </div>
+                        <div class="room-text">
+                            <h3>Luxury Room</h3>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet.
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet. 
+                                </li>
+                                <li>
+                                    <i class="fas fa-arrow-alt-circle-right"></i>
+                                    Lorem ipsum dolor, sit amet. 
+                                </li>
+                            </ul>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home way. Kigali coders, we are your friends.</p>
+                            <p class="rate">
+                                <span>$99.00 /</span> Per Night
+                            </p>
+                            <button type="button" class="btn"> Book Now</button>
+                        </div>
+                    </article>
+                    <!--end of single room-->
+                </div>
+            </section>
+
+            <section class="customers" id = "customers">
+                <div class="sec-width">
+                    <div class="title">
+                        <h2>Customers</h2>
+                    </div>
+                    <div class="customers-container">
+                        <!--Single customer-->
+                        <div class="customer">
+                            <div class="rating">
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" far fa-star"></i></span>
+                            </div>
+                            <h3>We Know the Place</h3>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home. </p>
+                            <img src="images/cus1.jpg" alt="customer image">
+                            <span>Customer Name, Country</span>
+                        </div>
+                        <!--end of Single customer-->
+                        
+                        <!--Single customer-->
+                        <div class="customer">
+                            <div class="rating">
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" far fa-star"></i></span>
+                            </div>
+                            <h3>Comfortable Living</h3>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home.</p>
+                            <img src="images/cus2.jpg" alt="customer image">
+                            <span>Customer Name, Country</span>
+                        </div>
+                        <!--end of Single customer-->    
+
+                        <!--Single customer-->
+                        <div class="customer">
+                            <div class="rating">
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" far fa-star"></i></span>
+                            </div>
+                            <h3>We Loved it</h3>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home.</p>
+                            <img src="images/cus3.jpg" alt="customer image">
+                            <span>Customer Name, Country</span>
+                        </div>
+                        <!--end of Single customer-->   
+                        <!--Single customer-->
+                        <div class="customer">
+                            <div class="rating">
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" far fa-star"></i></span>
+                            </div>
+                            <h3>Nice Place to be</h3>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home.</p>
+                            <img src="images/cus4.jpg" alt="customer image">
+                            <span>Customer Name, Country</span>
+                        </div>
+                        <!--end of Single customer-->    
+                        
+                         <!--Single customer-->
+                         <div class="customer">
+                            <div class="rating">
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" far fa-star"></i></span>
+                            </div>
+                            <h3>The Place of Our choice</h3>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home.</p>
+                            <img src="images/cus5.jpg" alt="customer image">
+                            <span>Customer Name, Country</span>
+                        </div>
+                        <!--end of Single customer-->    
+
+                         <!--Single customer-->
+                         <div class="customer">
+                            <div class="rating">
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" fas fa-star"></i></span>
+                                <span> <i class=" far fa-star"></i></span>
+                            </div>
+                            <h3>We Recommend this Place</h3>
+                            <p>Dear estimated customer, this website can be yours. I created the template using html, CSS and JavaScript to beautify the look. We, human being we have the ability to create, to respond to your needs, to satisfy your customer needs and attract the good to your home. </p>
+                            <img src="images/cus6.jpeg" alt="customer image">
+                            <span>Customer Name, Country</span>
+                        </div>
+                        <!--end of Single customer-->    
+
+
+                    </div>                    
+                </div>
+            </section>
+
+
+
+
+        <!--end of body content-->
+
+        <!--footer-->
+            <footer class="footer">
+                <div class="footer-container">
+                    <div>
+                        <h2> About us</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <ul class="social-icons">
+                            <li class="flex">
+                                <i class="fa fa-twitter fa-2x"></i>
+                            </li>
+                            <li class="flex">
+                                <i class="fa fa-facebook fa-2x"></i>
+                            </li>
+                            <li class="flex">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Useful Links</h2>
+                        <a href="#">Blog</a>
+                        <a href="#">Rooms</a>
+                        <a href="#">Subscription</a>
+                        <a href="#">Gift Card</a>
+                    </div>
+                    <div>
+                        <h2>Privacy</h2>
+                        <a href="#">Career</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Contact US</a>
+                        <a href="#">Services</a>
+                    </div>
+
+                    <div>
+                        <h2>Have a Question</h2>
+                        <div class="contact-item">
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>
+                            <span>
+                                KN 74 St Kigali City Market, Rwanda
+                            </span>
+                        </div>
+                        <div class="contact-item">
+                            <span>
+                                <i class="fas fa-phone-alt"></i>
+                            </span>
+                            <span>
+                                +250 788 620 201
+                            </span>
+                        </div>
+                        <div class="contact-item">
+                            <span>
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span>
+                                info@yourdomain.com
+                            </span>
+                            
+                        </div>
+
+                        <div class="contact-item">
+                            <span>
+                                <i class="fas fa-code"></i>
+                            </span>
+                            <span>
+                               Powered and Designed by: René
+                            </span>
+                            
+                        </div>
+                        <div class="contact-item">
+                            <span>
+                                <i class="fas fa-user"></i>
+                            </span>
+                            <span>
+                               Designed for: Eugene
+                            </span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+
+         <!--end of footer-->
+        <script src="js/script.js"></script>
+    </body>
+
+
+</html>
